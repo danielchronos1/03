@@ -1,0 +1,103 @@
+/* Font and base styles */
+body {
+    font-family: Arial;
+    font-size: 14px;
+  }
+  
+  /* Contact container */
+  .contact-container {
+    background-color: #f2f2f2;
+    border-radius: 0.5em;
+    width: 700px;
+    height: 250px;
+    margin: auto;
+  }
+  
+  /* Contact form */
+  .contact-form {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  /* Contact form left side */
+  .contact-leftside {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    height: 180px;
+  }
+  
+  /* Contact form left and right sides */
+  .contact-leftside,
+  .contact-rightside {
+    box-sizing: border-box;
+    width: calc(50% - 10px);
+  }
+  
+  /* Contact form inputs and select */
+  .contact-leftside input,
+  select {
+    margin-bottom: 15px;
+    display: flex;
+    border: none;
+    outline: none;
+  }
+  
+  /* Contact form checkbox */
+  .contact-checkbox {
+    display: flex;
+    font-size: 13px;
+  }
+  
+  /* Contact form message */
+  .contact-message {
+    width: 100%;
+    resize: none;
+    box-sizing: border-box;
+    height: 100%;
+  }
+  
+  /* Contact form downside */
+  .contact-downside {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Contact form alert */
+  .contact-alert {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    background-color: #e6e6e6;
+    height: 30px;
+    width: 490px;
+  }
+  
+  /* Contact form alert icon */
+  .contact-alert-icon {
+    padding-right: 10px;
+  }
+  
+  /* Contact form alert text */
+  .contact-alert-text {
+    padding-right: 10px;
+    font-size: 13px;
+    color: red;
+  }
+  
+  /* Contact form button */
+  .contact-btn {
+    height: 30px;
+    width: 100px;
+    background-color: #758cc0;
+    border: none;
+    border-radius: 0.5em;
+    color: white;
+  }
+
+  

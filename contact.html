@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="contact-container">
+        <form class="contact-form" action="">
+            <div class="contact-leftside">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="E-mail">
+                <input type="tel" placeholder="Phone Number">
+                <select name="subject" class="contact-subject">
+                    <option value="agree">Choose a subject</option>
+                </select>
+                <label class="contact-checkbox">
+                    <input class="contact-text-checkbox" type="checkbox" /><span>I agree with the <a href="#">privacy policy</a></span>
+                </label>
+            </div>
+
+            <div class="contact-rightside">
+                <textarea name="message" class="contact-message" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="contact-downside">
+                <div class="contact-alert">
+                <img class="contact-alert-icon" src="images/icon-alert.png">
+                <span class="contact-alert-text">
+                    Insert a valid e-mail address.
+                </span>
+                </div>
+
+                <button class="contact-btn">Send</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
